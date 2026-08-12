@@ -11,9 +11,7 @@ class Solution {
         ans.add(num);
         for(int i = 0;i<10;i++){
             int ln = num*10+i;
-            if(ln>n){
-                break;
-            }
+
             dfs(ln,n,ans);
         }
         return;
