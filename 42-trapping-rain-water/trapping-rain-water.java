@@ -15,7 +15,6 @@ class Solution {
                 }
                 left++;
             }else{
-                if(height[right]<=height[left]){
                 if(height[right]>= rightmax){
                     rightmax = height[right];
                 }else{
@@ -23,7 +22,6 @@ class Solution {
                 }
                 right--;
             }
-        }
     } return total;
 }
 }
