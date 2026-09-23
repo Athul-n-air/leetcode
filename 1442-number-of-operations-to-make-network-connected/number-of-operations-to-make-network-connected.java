@@ -43,7 +43,7 @@ class Solution {
         } 
         int cntc =0;
         for(int i =0;i<n;i++){
-            if(ds.findUPar(i)==i){
+            if(ds.parent.get(i)==i){
                 cntc++;
             }
         }
